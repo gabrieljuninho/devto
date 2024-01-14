@@ -9,7 +9,7 @@ const SidebarLeftContent = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <div className="row-end-[initial] hidden w-60 min-w-0 md:block">
+    <div className="row-end-[initial] hidden min-w-0 md:block">
       <aside>
         <div className="overflow-wrap-anywhere rounded-card bg-white p-4 text-primary shadow-[0_0_0_1px_rgba(23,23,23,0.05)]">
           <h2 className="mb-4 text-lg font-bold !leading-tight text-base-90 sm:text-xl">

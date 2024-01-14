@@ -70,6 +70,14 @@ const config: Config = {
           "Segoe UI Emoji",
           "Segoe UI Symbol",
         ],
+        widget: [
+          "SFMono-Regular",
+          "Consolas",
+          "Liberation Mono",
+          "Menlo",
+          "Courier",
+          "monospace",
+        ],
       },
       colors: {
         body: "rgb(23, 23, 23)",
@@ -80,6 +88,8 @@ const config: Config = {
         secondary: "rgb(115, 115, 115)",
         ghost: "#3D3D3D",
         light: "#F9F9F9",
+        tertiary: "rgb(245, 245, 245)",
+        comment: "#717171",
         "base-70": "#575757",
         "base-90": "#242424",
         "base-100": "#090909",
