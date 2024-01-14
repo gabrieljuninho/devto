@@ -43,7 +43,7 @@ const Navbar = () => {
             alt="DEV Community"
             width={50}
             height={40}
-            className="h-logo inline-block w-auto max-w-full object-contain align-middle outline-0"
+            className="inline-block h-logo w-auto max-w-full object-contain align-middle outline-0"
           />
         </Link>
         <div className="mx-2 my-0 hidden max-w-[420px] flex-auto md:mx-4 md:my-0 md:block">
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="py-border-1.5 border-form w-full resize-y rounded-md border-[1.5px] bg-white px-[0.5em] text-base leading-normal text-body outline-0 transition-all duration-100 ease-modifier placeholder:text-body"
+                  className="w-full resize-y rounded-md border-[1.5px] border-form bg-white px-[0.5em] py-border-1.5 text-base leading-normal text-body outline-0 transition-all duration-100 ease-modifier placeholder:text-body"
                   autoComplete="off"
                   aria-label="Search term"
                 />
@@ -81,7 +81,7 @@ const Navbar = () => {
         <div className="ml-auto flex h-full items-center">
           <Link
             href={"/search"}
-            className="overflow-wrap-normal text-primary relative mx-1 inline-block max-w-full rounded-md bg-transparent p-2 outline-0 hover:bg-hover hover:text-hover md:hidden"
+            className="overflow-wrap-normal relative mx-1 inline-block max-w-full rounded-md bg-transparent p-2 text-primary outline-0 hover:bg-hover hover:text-hover md:hidden"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -100,14 +100,14 @@ const Navbar = () => {
             <span className="hidden md:block">
               <Link
                 href={"/enter"}
-                className="text-primary hover:text-link-branded overflow-wrap-normal relative ml-auto mr-2 flex max-w-full whitespace-nowrap rounded-md bg-transparent px-4 py-2 outline-0 hover:bg-hover hover:underline"
+                className="overflow-wrap-normal relative ml-auto mr-2 flex max-w-full whitespace-nowrap rounded-md bg-transparent px-4 py-2 text-primary outline-0 hover:bg-hover hover:text-hover hover:underline"
               >
                 Log in
               </Link>
             </span>
             <Link
               href={"/enter?state=new-user"}
-              className="hover:bg-cta-branded text-cta-branded border-cta-branded py-border-1-sm px-border-1-md overflow-wrap-normal relative mr-2 inline-flex whitespace-nowrap rounded-md border bg-transparent font-medium outline-0 hover:border-hover hover:text-white"
+              className="overflow-wrap-normal relative mr-2 inline-flex whitespace-nowrap rounded-md border border-cta-branded bg-transparent px-border-1-md py-border-1-sm font-medium text-cta-branded outline-0 hover:border-hover hover:bg-cta-branded hover:text-white"
             >
               Create account
             </Link>

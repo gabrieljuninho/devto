@@ -13,3 +13,7 @@
 .overflow-wrap-anywhere {
   overflow-wrap: anywhere;
 }
+
+.scroll-margin-top-14 {
+  scroll-margin-top: 56px;
+}
